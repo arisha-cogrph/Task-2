@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox {
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #7dace2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox {
+    width: 340px;
+    height: 420px;
+    display: flex;
+    border-radius: none;
+    background-color: #e6e9e6;
+}
