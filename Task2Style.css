@@ -23,11 +23,23 @@ body {
     align-items: center;
 }
 
-.innerbox {
+.cartbox {
     width: 340px;
     height: 420px;
     display: flex;
     border-radius: none;
-    background-color: #e6e9e6;
-    
+    background-color: white;
 }
+
+.buynow {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color:#ff7a7a;
+    color: white;
+    font-weight: bold;
+    font: arial;
+    margin-top: 300px;
+    margin-left: 100px;
+    align-items: center;
